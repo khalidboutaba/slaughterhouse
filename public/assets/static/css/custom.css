@@ -1,0 +1,27 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.breadcrumb-header {
+    float: right;
+}
+
+.breadcrumb {
+    justify-content: flex-end;
+}
+
+.btn {
+    float: left;
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between buttons as needed */
+}
+
+.button-group form {
+    margin: 0;
+}
