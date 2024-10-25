@@ -4,11 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>@yield('title', 'Slaughterhouse Management')</title>
+    <title>@yield('title', 'Nadigit SMS')</title>
     <link rel="icon" href="{{ asset('img/logo/Nadigit_logo.png') }}">
     <link rel="stylesheet" href="{{ asset('assets/compiled/css/iconly.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/compiled/css/app.rtl.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/compiled/css/app-dark.rtl.css') }}">
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <link rel="apple-touch-icon" href="{{ asset('img/icons/ios/196.png') }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Nadigit SMS">
     @yield('styles')
     
   </head>
