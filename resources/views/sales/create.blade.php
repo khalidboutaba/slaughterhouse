@@ -357,8 +357,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
 
-            const maxWeight = (availableWeight * quantityFraction) + 5; // Add 5 kg margin
-            const minWeight = (availableWeight * quantityFraction) - 5; // Subtract 5 kg margin
+            const maxWeight = (availableWeight * quantityFraction) + 20; // Add 5 kg margin
+            const minWeight = (availableWeight * quantityFraction) - 20; // Subtract 5 kg margin
 
             weightInput.setAttribute('max', maxWeight.toFixed(2));
             weightInput.setAttribute('min', Math.max(0, minWeight).toFixed(2)); // Ensure min doesn't go below 0
