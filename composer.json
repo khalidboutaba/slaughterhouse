@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "Nadigit SMS",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "Nadigit SMS is a slaughterhouse management system",
+    "keywords": ["nadigit", "nadigit sms", "slaughterhouse", "slaughterhouse management system"],
     "license": "MIT",
     "require": {
         "php": "^8.2",
